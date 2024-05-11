@@ -1,0 +1,42 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+pageRef = "/about"
+weight = 1
+
+[[main]]
+name = "Blog"
+pageRef = "/blog"
+weight = 2
+
+[[main]]
+name = "Categories"
+weight = 3
+
+[[main]]
+parent = "Categories"
+name = "Biology"
+pageRef = "/biology"
+
+[[main]]
+parent = "Categories"
+name = "CS"
+pageRef = "/cs"
+
+# footer menu
+[[footer]]
+name = "About"
+pageRef = "/about"
+weight = 1
+
+[[footer]]
+name = "Elements"
+pageRef = "/elements"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+pageRef = "/privacy-policy"
+weight = 3
