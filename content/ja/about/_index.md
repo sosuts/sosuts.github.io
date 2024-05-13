@@ -1,10 +1,11 @@
 ---
-title: "Hey, I am John Doe!"
+title: "About"
 meta_title: "About"
 image: "/images/avatar.png"
 name: Sosuke Utsunomiya
 birthday: 1993/09/23
 draft: false
+aliases: ["/ja/"]
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+Sosuke Utsunomiya is a Scientist at Abbott Japan Co., Ltd., specializing in the development and improvement of diagnostic devices. Since joining the company after completing his graduate studies in 2021, he has been actively involved in implementing image analysis programs, maintaining and improving user interfaces, and automating data analysis and visualization. He is fluent in Japanese and has a business-level proficiency in English.
