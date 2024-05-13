@@ -3,7 +3,7 @@
 # main menu
 [[main]]
 name = "Home"
-pageRef = "/about"
+pageRef = "/"
 weight = 1
 
 [[main]]
