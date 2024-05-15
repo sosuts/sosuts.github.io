@@ -1,6 +1,6 @@
 ---
-title: "About"
-meta_title: "About"
+title: "Home"
+meta_title: "Home"
 image: "/images/avatar.png"
 name: 宇都宮 聡介
 birthday: 1993/09/23
