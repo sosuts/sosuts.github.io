@@ -15,7 +15,7 @@
     {{ partialCached "essentials/style.html" . }}
   </head>
 
-  <body>
+  <body class="flex flex-col min-h-screen">
     <!-- cache partial only in production -->
     {{ if hugo.IsProduction }}
       {{ partialCached "preloader.html" . }}
@@ -38,7 +38,7 @@
     {{ partial "search-modal.html" (dict "Context" . ) }}
 
 
-    <main>
+    <main class="flex-grow">
       {{ block "main" . }}{{ end }}
     </main>
 
