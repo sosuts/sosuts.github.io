@@ -1,6 +1,6 @@
 ---
 title: "sosuts.com"
-meta_title: "Home"
+meta_title: "sosuts.com"
 image: "/images/avatar.png"
 name: Sosuke Utsunomiya
 birthday: 1993-09-23
