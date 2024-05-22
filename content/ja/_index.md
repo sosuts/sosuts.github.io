@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "sosuts.com"
 meta_title: "Home"
 image: "/images/avatar.png"
 name: 宇都宮 聡介
