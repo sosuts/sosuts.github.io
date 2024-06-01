@@ -1,33 +1,23 @@
 ---
-title: "Privacy"
+title: "Privacy policy"
 # meta title
-meta_title: ""
+meta_title: "Privacy policy"
 # meta description
-description: "This is meta description"
+description: ""
 # save as draft
 draft: false
 ---
 
-#### Responsibility of Contributors
+#### Purpose of Use of Personal Information
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+On this site, when you make an inquiry or leave a comment on an article, you may be asked to provide personal information such as your name and email address. The personal information collected will be used to respond to your inquiries and provide necessary information via email, and will not be used for any other purposes.
 
-pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.
+#### About Access Analysis Tools
 
-#### Gathering of Personal Information
+This site uses the access analysis tool "Google Analytics" provided by Google. Google Analytics uses cookies to collect data. This data is collected anonymously and does not identify individuals.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+You can refuse the collection of data by disabling cookies. Please check your browser settings for this option. For more details about this policy, please refer to the Google Analytics Terms of Service and the Google Policies and Principles page.
 
-#### Protection of Personal- Information
+#### Comments and Contact Forms
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.
-
-Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat
-
-#### Privacy Policy Changes
-
-1. Sll the Themefisher items are designed to be with the latest , We check all
-2. comments that threaten or harm the reputation of any person or organization
-3. personal information including, but limited to, email addresses, telephone numbers
-4. Any Update come in The technology Customer will get automatic Notification.
+When recording comments or inquiries on this site, the IP address is collected. This is a standard feature supported by the site and the IP address will not be used for any purpose other than dealing with spam or abuse. Please note that all comments are reviewed and approved by the administrator before being published.
