@@ -16,6 +16,11 @@ name = "Categories"
 weight = 3
 
 [[main]]
+name = "Bookshelf"
+pageRef = "/bookshelf"
+weight = 4
+
+[[main]]
 parent = "Categories"
 name = "Biology"
 pageRef = "/biology"

@@ -20,8 +20,8 @@
         <!-- sidebar -->
         <div class="lg:col-4">
           <!-- widget -->
-          {{ $widget:= site.Params.widgets.blog_sidebar }}
-          {{ partialCached "widgets/blog/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
+          {{ $widget:= site.Params.widgets.bookshelf_sidebar }}
+          {{ partialCached "widgets/bookshelf/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
         </div>
       </div>
     </div>

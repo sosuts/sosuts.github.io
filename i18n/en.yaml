@@ -13,6 +13,9 @@
 - id: categories
   translation: Categories
 
+- id: book_categories
+  translation: Book Categories
+
 - id: tags
   translation: Tags
 

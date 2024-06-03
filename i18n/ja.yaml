@@ -13,8 +13,14 @@
 - id: categories
   translation: Categories
 
+- id: book_categories
+  translation: Book Categories
+
 - id: tags
   translation: Tags
+
+- id: book_tags
+  translation: Book Tags
 
 - id: toc
   translation: Table of Contents

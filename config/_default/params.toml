@@ -86,8 +86,8 @@ button = "I Accept"
 
 ######################## sidebar widgets #########################
 [widgets]
-sidebar = ["categories", "tags"]
-
+blog_sidebar = ["categories", "tags"]
+bookshelf_sidebar = ["book_categories", "book_tags"]
 
 # google map
 [google_map]

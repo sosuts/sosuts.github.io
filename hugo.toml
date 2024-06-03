@@ -32,6 +32,13 @@ shortname = 'themefisher-template' # we use disqus to show comments in blog post
 [permalinks.page]
 "pages" = "/:slugorfilename/"
 
+[taxonomies]
+category = 'categories'
+series = 'series'
+tag = 'tags'
+book_category = 'book_categories'
+book_series = 'book_series'
+book_tag = 'book_tags'
 
 ############################# Modules ############################
 [module]
