@@ -40,22 +40,16 @@
             <div class="flex flex-row gap-2">
               <div class="flex flex-col">
                 <ul>
-                  <li>
-                    <i class="fas fa-light fa-dna"></i>
-                  </li>
-                  <li>
-                    <i class="fas fa-light fa-computer"></i>
-                  </li>
-                  <li>
-                    <i class="fas fa-light fa-soccer-ball"></i>
-                  </li>
+                  {{ range .Params.interest }}
+                    <li><i class="{{ .icon }}"></i></li>
+                  {{ end }}
                 </ul>
               </div>
               <div class="flex flex-col">
                 <ul>
-                  <li>Life Science</li>
-                  <li>Data Analysis</li>
-                  <li>Football</li>
+                  {{ range .Params.interest }}
+                    <li>{{ .title }}</li>
+                  {{ end }}
                 </ul>
               </div>
             </div>
