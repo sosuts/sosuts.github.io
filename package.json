@@ -19,15 +19,20 @@
     "format": "prettier -w ."
   },
   "devDependencies": {
+    "@notionhq/client": "^2.2.15",
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.13",
     "autoprefixer": "^10.4.19",
+    "netlify-cli": "^17.25.0",
     "postcss": "^8.4.38",
     "postcss-cli": "^11.0.0",
     "prettier": "^3.2.5",
-    "prettier-plugin-go-template": "0.0.15",
+    "prettier-plugin-go-template": "^0.0.15",
     "prettier-plugin-tailwindcss": "^0.5.14",
     "tailwind-bootstrap-grid": "^5.1.0",
     "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "@netlify/functions": "^2.7.0"
   }
 }
