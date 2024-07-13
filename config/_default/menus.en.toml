@@ -16,8 +16,8 @@ name = "Categories"
 weight = 3
 
 [[main]]
-name = "Bookshelf"
-pageRef = "/bookshelf"
+name = "Memo (External link)"
+url = "https://sosuts.notion.site/f25413676d934f64bbbd4a7f03b452d5?pvs=74"
 weight = 4
 
 [[main]]
