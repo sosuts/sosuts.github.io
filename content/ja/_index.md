@@ -8,7 +8,7 @@ draft: false
 degree: 博士 (理学)
 location: 日本
 education:
-  - Ph.D. in Biology, 2023 (2021年に単位取得退学)
+  - Ph.D. in Biology, 2024
   - M.S. in Biology, 2018
   - B.S. in Biology, 2016
 interest:

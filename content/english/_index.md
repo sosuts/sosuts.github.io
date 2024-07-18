@@ -8,7 +8,7 @@ draft: false
 degree: Ph.D. in Biology
 location: Japan
 education:
-  - "Ph.D. in Biology, 2023 (Withdrawal with credits in 2021)"
+  - "Ph.D. in Biology, 2024"
   - "M.S. in Biology, 2018"
   - "B.S. in Biology, 2016"
 interest:
