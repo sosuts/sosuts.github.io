@@ -20,4 +20,8 @@ interest:
     title: Football
 ---
 
-Sosuke Utsunomiya is a Scientist at Abbott Japan Co., Ltd., specializing in the development and improvement of diagnostic devices. Since joining the company after completing his graduate studies in 2021, he has been actively involved in implementing image analysis programs, maintaining and improving user interfaces, and automating data analysis and visualization. He is fluent in Japanese and has a business-level proficiency in English.
+I’m a scientist at Abbott Japan Co., Ltd., specializing in the development and enhancement of diagnostic devices. Since I joined the company after completing my graduate studies in 2021, I have been actively involved in implementing image analysis programs, improving user interfaces, and automating data analysis and visualization.
+
+My initial work was in biological research using *Drosophila melanogaster*. My graduate studies led me to explore programming with Python and Julia. Currently, I am interested in backend development and data analysis.
+
+My goal is to advance healthcare and research through technological innovation while continuously developing my own skills and pursuing personal growth.
