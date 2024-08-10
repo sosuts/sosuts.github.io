@@ -6,9 +6,9 @@ categories: ["Git", "Tech"]
 draft: false
 published: "2024-08-01"
 author: "Sosuke Utsunomiya"
+summary: "過去の自分に向けたGitの説明"
 # lastmod is fetched from git and configured in hugo.toml
 ---
-
 {{< notice "info" >}}
 このブログ記事は、[Creative Commons Attribution Non Commercial Share Alike 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/)の下でライセンスされた[Git internals](https://git-scm.com/book/ja/v2)を参考に書いています。
 {{< /notice >}}
