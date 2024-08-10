@@ -3,23 +3,11 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Development",
+      "label": "Preview",
       "type": "shell",
-      "command": "yarn dev:example",
+      "command": "docker run -p 1313:1313 --rm -v $(pwd):/home/node -it sosuts.github.io npm run dev",
       "isBackground": true,
-      "group": {
-        "kind": "test",
-        "isDefault": true
-      },
-    },
-    {
-      "label": "Build",
-      "type": "shell",
-      "command": "yarn build:example",
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      }
+      "problemMatcher": []
     }
   ]
 }
