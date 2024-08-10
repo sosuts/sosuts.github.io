@@ -20,6 +20,10 @@ defaultContentLanguage = 'ja'
 # defaultContentLanguageInSubdir need to be true if you want to use the language code as a subdirectory and language specific 404 page
 defaultContentLanguageInSubdir = true
 
+enableGitInfo = true
+[frontmatter]
+lastmod = [':git', ':fileModTime']
+
 ########################### Services #############################
 [services]
 [services.googleAnalytics]
