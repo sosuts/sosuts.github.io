@@ -37,6 +37,15 @@ Gitのコマンドには、配管(Plumbing)と磁器（Porcelain）という2つ
 
 普通にLow-level commandとHigh-level commandと読んでくれたらわかりやすいんだけど、なんでこん名前にしてるんだろ。
 
+```mermaid
+flowchart TD
+    A[Start] --> B{Is it?}
+    B -- Yes --> C[OK]
+    C --> D[Rethink]
+    D --> B
+    B -- No ----> E[End]
+```
+
 ### .gitの実体
 
 まずローカルリポジトリを作成。
