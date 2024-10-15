@@ -13,6 +13,9 @@
 
     <!-- style (always cache it) -->
     {{ partialCached "essentials/style.html" . }}
+    {{ if .Param "math" }}
+      {{ partialCached "math.html" . }}
+    {{ end }}
   </head>
 
   <body class="flex flex-col min-h-screen">
