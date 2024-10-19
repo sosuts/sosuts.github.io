@@ -20,9 +20,13 @@ interest:
     title: サッカー
 ---
 
-I’m a scientist at Abbott Japan Co., Ltd., specializing in the development and enhancement of diagnostic devices. Since I joined the company after completing my graduate studies in 2021, I have been actively involved in implementing image analysis programs, improving user interfaces, and automating data analysis and visualization.
-
-My initial work was in biological research using *Drosophila melanogaster*. My graduate studies led me to explore programming with Python and Julia. Currently, I am interested in backend development and data analysis.
-
-My goal is to advance healthcare and research through technological innovation while continuously developing my own skills and pursuing personal growth.
-
+ヘルスケア分野のメーカーで働いています。主に画像解析ソフトの開発や、社内のデータ分析、自動化のプロジェクトに携わっています。ソフトウェアを活用して、研究開発の効率化を目指しているのが私の役割です。
+<br>
+<br>
+大学時代は生物学を専攻していましたが、バイオインフォマティクスのようなデータ分析中心の「dry」な分野ではなく、実験主体の「wet」な生物学を学んでいました。研究テーマは、キイロショウジョウバエの発生や、タンパク質の細胞膜動態に関するものでした。プログラミングやデータ分析を本格的に学び始めたのは、修士課程に進んでからのことです。当時は、研究を進める中でExcelや手作業の限界に直面し、自動化の必要性を感じたのがきっかけでした。次第にソフトウェアエンジニアリングにも興味を持ち、趣味の一環として学び続けています。
+<br>
+<br>
+企業に就職する前に博士号を取得することができず、単位取得退学しました。色々な事情もあり、もう博士号はいいかなと思っていたのですが、どうしても心に引っかかるものがあり、2023年から2024年にかけて論文と実験に再挑戦しました。おかげで2024年3月に博士(理学)の学位を取得することができ、目標のひとつを達成できたと感じています。所属研究室の教授、共同研究の教授と先輩、そして私生活を支えてくれた妻に深く感謝しています。
+<br>
+<br>
+このブログを作ったきっかけは、個人として情報発信をする場所があった方がいいなと思ったからです。これまで名もなきブログ記事やtweetに助けられたことが多々ありますので、自分も誰かを助けられたら嬉しいです。もちろん、自分の学びの記録としても残しておきたい気持ちもあります。のんびりやっていこう～！

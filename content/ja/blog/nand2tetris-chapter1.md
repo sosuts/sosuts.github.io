@@ -32,7 +32,7 @@ NAND2Tetrisのプロジェクトでは、NANDゲートを基本として、他�
 hdlには色々な種類がある。VerilogとVHDLが有名。NAND2Tetrisでは独自のhdlを使う。
 NAND2Tetrisで使うhdlのNotゲートの記述例。
 
-```text
+```php
 /**
  * Not gate:
  * if (in) out = 0, else out = 1
