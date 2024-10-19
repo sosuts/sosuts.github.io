@@ -1,7 +1,7 @@
 ---
 title: "Privacy policy"
 # meta title
-meta_title: "Privacy polycy"
+meta_title: "Privacy policy"
 # meta description
 description: ""
 # save as draft

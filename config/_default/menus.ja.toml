@@ -7,9 +7,14 @@ pageRef = "/"
 weight = 1
 
 [[main]]
+name = "このホームページについて"
+pageRef = "/pages/about-this-hp.md"
+weight = 2
+
+[[main]]
 name = "Blog"
 pageRef = "/blog"
-weight = 2
+weight = 3
 
 # [[main]]
 # name = "Categories"
@@ -18,7 +23,7 @@ weight = 2
 [[main]]
 name = "メモ (外部リンク)"
 url = "https://sosuts.notion.site/f25413676d934f64bbbd4a7f03b452d5?pvs=74"
-weight = 3
+weight = 4
 
 # [[main]]
 # parent = "Categories"
