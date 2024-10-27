@@ -2,6 +2,7 @@
 title: "NAND2Tetris #1"
 meta_title: "NAND2Tetris #1"
 description: "Project 1 of NAND2Tetris"
+categories: ["Tech", "NAND2Tetris"]
 ---
 
 ## 1.1 ブール代数
@@ -57,7 +58,7 @@ CHIP Not {
 意味をもつビットの集まりをバス(bus)と呼ぶ。ラテン語で「多くのもの」を意味するとのこと。
 一般的にHDLsはバスを扱うために便利な記法をもつ。
 
-```text
+```php
 /*
  * 2つの16ビットバスを足す
  */
