@@ -1,7 +1,7 @@
-<div class="bg-body dark:bg-darkmode-body">
+<div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 p-6 card-shadow">
   {{ $image:= .Params.image }}
   {{ if $image }}
-    {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mb-6 w-full rounded" "Size" "1000x400") }}
+    {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mb-6 w-full block" "Size" "1000x400") }}
   {{ end }}
   <h4 class="mb-3">
     <a href="{{ .RelPermalink }}">

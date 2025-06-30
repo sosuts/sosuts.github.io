@@ -1,1 +1,102 @@
-// Add your own custom styles here
+// Modern flat design landing page
+
+// One Dark Pro inspired color palette
+:root {
+  --onedark-bg: #282c34;
+  --onedark-fg: #abb2bf;
+  --onedark-blue: #61afef;
+  --onedark-cyan: #56b6c2;
+  --onedark-gray: #5c6370;
+  --onedark-light-gray: #9ca3af;
+  --onedark-darker: #21252b;
+  --onedark-lighter: #3e4451;
+  --pale-blue-accent: #61afef;
+}
+
+// Flat design animations - minimal and subtle
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Apply minimal animations
+.profile-section {
+  animation: fadeInUp 0.5s ease-out;
+}
+
+// Flat design button states
+.flat-button {
+  transition: background-color 0.2s ease;
+  border: none;
+  
+  &:hover {
+    background-color: color-mix(in srgb, currentColor 10%, transparent);
+  }
+}
+
+// Rounded design with subtle shadows
+.flat-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  border: 2px solid;
+}
+
+// Rounded design with enhanced shadows
+.card-shadow {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.dark .card-shadow {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+}
+
+// One Dark Pro specific overrides
+.dark {
+  background-color: var(--onedark-bg) !important;
+  color: var(--onedark-fg) !important;
+}
+
+// Blog card enhancements with rounded design
+.blog-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 12px;
+  
+  &:hover {
+    transform: translateY(-2px);
+    border-color: var(--pale-blue-accent);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .dark & {
+    background-color: var(--onedark-lighter);
+    border-color: var(--onedark-light-gray);
+    
+    &:hover {
+      border-color: var(--onedark-blue);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    }
+  }
+}
+
+// Responsive improvements with flat design principles
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .flat-card {
+    margin: 1rem;
+    padding: 1.5rem;
+    border-width: 1px;
+    border-radius: 8px;
+  }
+}
