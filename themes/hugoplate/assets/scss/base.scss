@@ -52,6 +52,10 @@ strong {
 
 code {
   @apply after:border-none;
+  &::before,
+  &::after {
+    content: none !important;
+  }
 }
 
 blockquote > p {
