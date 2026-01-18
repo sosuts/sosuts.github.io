@@ -16,13 +16,13 @@ summary: "WPFとHelixToolkit.Wpf.SharpDXを使い、インタラクティブな3
 
 この記事では、WPFと[Helix Toolkit](https://github.com/helix-toolkit/helix-toolkit)のSharpDX版である`HelixToolkit.Wpf.SharpDX`ライブラリを使用して、インタラクティブな3次元散布図を作成する方法を解説します。
 
-例として、私が作成したOSS [MultiDimensionwScatter](https://github.com/sosuts/MultiDimensionwScatter) を取り上げます。このアプリケーションは、多次元の混合正規分布（GMM）のパラメータを指定し、そこから生成されるサンプル点を3D散布図として可視化するものです。
+例として、私が作成したOSS [MultiDimensionScatter](https://github.com/sosuts/MultiDimensionScatter) を取り上げます。このアプリケーションは、多次元の混合正規分布（GMM）のパラメータを指定し、そこから生成されるサンプル点を3D散布図として可視化するものです。
 
 `HelixToolkit.Wpf.SharpDX`は、DirectXを利用してWPFアプリケーション上で高速な3Dグラフィックスを実現します。特に、数万〜数十万点の大量のデータをリアルタイムに描画する性能に優れており、科学技術計算やデータ分析の可視化ツールとして非常に強力です。
 
-## MultiDimensionwScatterの概要
+## MultiDimensionScatterの概要
 
-`MultiDimensionwScatter`は、以下の特徴を持つWPFアプリケーションです。
+`MultiDimensionScatter`は、以下の特徴を持つWPFアプリケーションです。
 
 -   **GMMパラメータの編集**: GUI上で混合正規分布の各コンポーネントの重み、平均ベクトル、共分散行列を直感的に編集できます。
 -   **3D散布図のリアルタイム描画**: パラメータに基づいて生成されたサンプル点を、`HelixToolkit.Wpf.SharpDX`を使って3D空間に高速に描画します。ユーザーはマウス操作で自由に視点を変えられます（回転、ズーム、パン）。
@@ -31,7 +31,7 @@ summary: "WPFとHelixToolkit.Wpf.SharpDXを使い、インタラクティブな3
 
 ## HelixToolkit.Wpf.SharpDXを使った3次元散布図の実装
 
-ここからは、`MultiDimensionwScatter`の実装を例に、`HelixToolkit.Wpf.SharpDX`で3D散布図を作成する具体的な手順を解説します。
+ここからは、`MultiDimensionScatter`の実装を例に、`HelixToolkit.Wpf.SharpDX`で3D散布図を作成する具体的な手順を解説します。
 
 ### 1. プロジェクトのセットアップ
 
@@ -48,7 +48,7 @@ Install-Package HelixToolkit.Wpf.SharpDX
 `MainWindow.xaml`では、以下のように`Viewport3DX`を定義しています。
 
 ```xml
-<Window x:Class="MultiDimensionwScatter.MainWindow"
+<Window x:Class="MultiDimensionScatter.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:sdx="http://helix-toolkit.org/wpf/SharpDX"
@@ -101,7 +101,7 @@ Install-Package HelixToolkit.Wpf.SharpDX
 
 XAMLでビューの骨格を作ったら、次はC#のコードビハインド（またはViewModel）で実際に描画するデータを準備します。
 
-`MultiDimensionwScatter`では、`BtnGenerate_Click`イベントハンドラ内でサンプル点を生成し、`ScatterModel`に渡しています。
+`MultiDimensionScatter`では、`BtnGenerate_Click`イベントハンドラ内でサンプル点を生成し、`ScatterModel`に渡しています。
 
 ```csharp
 // MainWindow.xaml.cs
@@ -211,6 +211,6 @@ private void UpdatePlanes(float max, float min)
 
 データ分析やシミュレーション結果の可視化など、インタラクティブな3D表現が求められる場面で、ぜひ活用してみてください。
 
-今回例に挙げた`MultiDimensionwScatter`の全ソースコードは、以下のGitHubリポジトリで公開しています。
+今回例に挙げた`MultiDimensionScatter`の全ソースコードは、以下のGitHubリポジトリで公開しています。
 
--   [https://github.com/sosuts/MultiDimensionwScatter](https://github.com/sosuts/MultiDimensionwScatter)
+-   [https://github.com/sosuts/MultiDimensionScatter](https://github.com/sosuts/MultiDimensionScatter)
